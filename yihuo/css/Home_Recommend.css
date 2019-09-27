@@ -120,6 +120,32 @@ header nav ul li:hover{border-bottom: 2px solid #fff;}
 
 footer{
 	width: 100%;
-	height: 0.8rem;
+	height: 0.98rem;
 	background-color: #333333;
+	box-sizing: border-box;
+	padding: 0.15rem;
+}
+footer ul li a:nth-of-type(1){
+	color: #EEC14F;
+}
+footer ul{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+}
+footer ul li a{
+	color: #fff;
+	/* line-height: 0.6rem; */
+	display: block;
+}
+
+footer ul li span{
+	width: 0.44rem;
+	height: 0.44rem;
+	
+}
+
+footer ul li p{
+	font-size: 0.28rem;
 }
