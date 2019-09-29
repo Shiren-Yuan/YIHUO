@@ -85,7 +85,7 @@
     
     
                         <!-- 每条内容 -->
-                        <div class="news-list">
+                    <div class="news-list">
                         <div class="list-top">
                             <img src="../img/banner.jpg" alt="">
                         </div>
@@ -120,7 +120,8 @@
     $(function(){
         //点击返回首页推荐
         $("span").eq(0).click(function(){
-            location.href = "../index.html";
+            // location.href = "../index.html";
+            history.go(-1);
         })
     })
 </script>

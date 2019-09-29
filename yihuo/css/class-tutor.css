@@ -1,0 +1,117 @@
+html,body{
+	height: 100%;
+}
+html{
+	font-size: 13.333333vw;
+	overflow-x: hidden;
+}
+body{
+	display: flex;
+	flex-direction: column;
+	/* overflow-y: auto; */
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+/*****************************************************/
+header{
+    width: 100%;
+    height: 1.16rem;
+    background-color: #333333;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0 0.2rem;
+}
+header span:nth-of-type(1){
+    color: #EEC14F;
+    font-size: 0.42rem;
+    float: left;
+    line-height: 1.16rem;
+}
+header input{
+    width: 5.62rem;
+    height: 0.6rem;
+    border: 1px solid #333333;
+    margin-top:0.3rem; 
+    border-radius: 0.2rem;
+    box-sizing: border-box;
+    padding-left: 0.3rem;
+    text-align: center;
+}
+header span:nth-of-type(2){
+    color: #EEC14F;
+    font-size: 0.38rem;
+    float: right;
+    line-height: 1.16rem;
+}
+.body-main{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    overflow-y: auto;
+}
+.body-main .bannerbig{
+    width: 100%;
+    height: 4.75rem;
+    background-color: #EEC14F;
+}
+.body-main .teacher-sel{
+    width: 100%;
+    height: 0.75rem;
+    background-color: #eee;
+}
+.body-main .teacher-sel ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.28rem;
+    line-height: 0.75rem;
+    height: 0.75rem;
+}
+.content-list{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    overflow-y: auto;
+    box-sizing: border-box;
+    padding: 0.2rem;
+}
+.content-list .news-list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.3rem;
+}
+.content-list .news-list img{
+    border-radius: 50%;
+    width: 0.96rem;
+    height: 0.96rem;
+}
+.content-list .news-list .news-middle{
+    box-sizing: border-box;
+    padding-left: 0.3rem;
+    font-size: 0.2rem;
+    flex: 4;
+}
+.content-list .news-list .news-middle p{
+    line-height: 0.34rem;
+}
+.content-list .news-list .news-middle p:first-child{
+    font-size: 0.24rem;
+}
+.content-list .news-list .news-right{
+    box-sizing: border-box;
+    padding-left: 0.2rem;
+    flex: 1;
+}
+.content-list .news-list .news-right input{
+    width: 0.94rem;
+    height: 0.4rem;
+    border: 1px solid #EEC14F;
+    border-radius: 0.1rem;
+    color: #EEC14F;
+    background-color: #fff;
+}
+.content-list .news-list .news-right p{
+    font-size: 0.2rem;
+    margin-top:0.2rem; 
+}
